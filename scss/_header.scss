@@ -1,0 +1,47 @@
+header {
+
+    .navbar {
+        position: fixed;
+        background-color: $color-claro;
+        padding-top: $padding-base;
+        padding-bottom: 0;
+        margin-top: 0;
+        width: 100%;
+        height: 10vh;
+        top: 0;
+        padding: 0;
+        margin: 0;
+        z-index: 10;
+
+        .boton-nav {
+            margin-left: 1vh;
+            background-color: $color-blanco;
+        }
+
+        .responsive-nav {
+            background-color: $color-claro;
+            margin-top: 1vh;
+            width: 100%;
+
+            .lista {
+                .nav-item {
+                    .categoria {
+                        color: white;
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        letter-spacing: 5px;
+                        margin-left: 5px;
+
+                        &:hover {
+                            background-color: $color-oscuro;
+                        }
+
+                        &:active {
+                            color: yellow;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

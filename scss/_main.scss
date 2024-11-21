@@ -1,0 +1,190 @@
+main {
+    .header__logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 50%;
+        text-align: center;
+        margin-top: 5vh;
+
+        .logo {
+            margin-top: 3vh;
+            max-width: 40%;
+            height: auto;
+            object-fit: contain;
+            z-index: 5;
+        }
+    }
+
+    .main__titulo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 50%;
+        text-align: center;
+        margin-top: 10vh;
+
+        .img__titulo {
+            margin-top: 10vh;
+            max-width: 80%;
+            height: auto;
+            object-fit: contain;
+            z-index: 5;
+        }
+    }
+
+    .main__subtitulo {
+        display: flex;
+        align-items: center;
+        color: $color-claro;
+        font-family: $fuente-principal;
+        text-align: center;
+        justify-content: center;
+        text-transform: uppercase;
+        width: 100%;
+        letter-spacing: 6px;
+        margin-top: 5vh;
+        text-shadow: -1px -1px 0px white,
+            1px -1px 0px white,
+            -1px 1px 0px white,
+            1px 1px 0px white
+    }
+
+    .productos {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        justify-items: center;
+        align-items: start;
+        padding: 20px;
+
+        .producto {
+            position: relative;
+            background: linear-gradient(to top, rgb(227, 78, 227), violet, yellow);
+            width: 80%;
+            height: auto;
+            border-radius: $border-radius-base;
+            justify-items: center;
+            border: blueviolet 2px solid;
+
+            &:hover {
+                transition: all 2s;
+                transform: scale(1.1);
+                z-index: 5;
+            }
+
+            .img__producto {
+                display: flex;
+                width: 90%;
+                height: auto;
+                border-radius: $border-radius-base;
+                margin-top: 5%;
+            }
+
+            .detalles {
+                margin: 10%;
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                align-items: center;
+
+                .comprar {
+                    font-size: 1rem;
+                    padding: 8px 15px;
+                    /* Ajusta el tamaño del botón */
+                    background-color: yellow;
+                    color: darkviolet;
+                    border: none;
+                    border-radius: 5px;
+                    margin-left: 7%;
+
+                    &:hover {
+                        background-color: $color-oscuro;
+                    }
+                }
+
+                .precio {
+                    font-size: 1.2rem;
+                    margin: 0;
+                    margin-right: 10%;
+                }
+            }
+        }
+    }
+
+    .titulos {
+        margin-top: 50px;
+    }
+
+    .resumen {
+        margin: 10%;
+        background-color: rgba(221, 217, 217, 0.563);
+        font-size: 1.2rem;
+    }
+
+    .div__artistas__e {
+        display: grid;
+        width: 100%;
+        height: auto;
+        gap: 5%;
+        justify-items: center;
+        grid-template-columns: 1fr;
+
+        .img__artistas {
+            width: 90%;
+            margin: 5%;
+            margin-bottom: 20%;
+        }
+    }
+
+    .div__artistas__j {
+        display: grid;
+        width: 100%;
+        height: auto;
+        gap: 5%;
+        justify-items: center;
+        grid-template-columns: 1fr;
+
+        .img__artistas {
+            width: 90%;
+            margin: 5%;
+            margin-bottom: 20%;
+        }
+    }
+
+    section {
+        .mapa {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+
+            .img__mapa {
+                width: 90%;
+                height: auto;
+            }
+        }
+
+        .form__email {
+            width: 90%;
+            margin-left: 1%;
+
+            .contacto {
+                font-size: 1.6rem;
+                margin-left: 1%;
+            }
+        }
+
+        .form__comentario {
+            width: 90%;
+            margin-left: 1%;
+
+            .contacto {
+                font-size: 1.6rem;
+                margin-left: 1%;
+            }
+        }
+    }
+}

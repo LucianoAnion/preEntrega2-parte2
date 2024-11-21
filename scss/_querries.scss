@@ -1,0 +1,87 @@
+@media only screen and (min-width: 400px) {
+
+    .precio {
+        font-size: 1.6rem;
+        margin-right: 10%;
+    }
+
+    .comprar {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (min-width: 520px) {
+    body {
+        .productos {
+            display: grid;
+            width: 100%;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            justify-items: center;
+            align-items: start;
+            padding: 20px;
+
+            .precio {
+                font-size: 1.2rem;
+                margin-right: 10%;
+            }
+
+            .comprar {
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        .navbar {
+            position: fixed;
+            background-color: $color-claro;
+            width: 100%;
+        }
+
+        .div__artistas__e {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        .div__artistas__j {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
+
+@media only screen and (min-width: 950px) {
+    body {
+        .precio {
+            font-size: 1.6rem;
+            margin-right: 10%;
+        }
+
+        .comprar {
+            font-size: 1.4rem;
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        .productos {
+            display: grid;
+            width: 100%;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+            justify-items: center;
+            align-items: start;
+            padding: 20px;
+        }
+
+        .resumen {
+            font-size: 1.6rem;
+        }
+
+        .titulos {
+            font-size: 4rem;
+        }
+    }
+}
