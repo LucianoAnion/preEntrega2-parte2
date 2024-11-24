@@ -117,6 +117,10 @@ main {
 
     .titulos {
         margin-top: 50px;
+
+        .nombre {
+            text-transform: uppercase;
+        }
     }
 
     .resumen {
