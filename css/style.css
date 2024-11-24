@@ -165,6 +165,11 @@ main .productos .producto .detalles .precio {
 main .titulos {
   margin-top: 50px;
 }
+main .titulos .descripcion {
+  background-color: rgba(221, 217, 217, 0.563);
+  margin: 10%;
+  text-transform: uppercase;
+}
 main .resumen {
   margin: 10%;
   background-color: rgba(221, 217, 217, 0.563);
