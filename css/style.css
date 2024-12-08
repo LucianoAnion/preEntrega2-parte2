@@ -188,6 +188,7 @@ main .div__artistas__e .img__artistas {
   width: 90%;
   margin: 5%;
   margin-bottom: 20%;
+  border-radius: 20px;
 }
 main .div__artistas__j {
   display: grid;
@@ -201,6 +202,7 @@ main .div__artistas__j .img__artistas {
   width: 90%;
   margin: 5%;
   margin-bottom: 20%;
+  border-radius: 20px;
 }
 main section .mapa {
   display: flex;
@@ -227,6 +229,21 @@ main section .form__comentario {
 main section .form__comentario .contacto {
   font-size: 1.6rem;
   margin-left: 1%;
+}
+main section .form__comentario .enviar {
+  color: #ffffff;
+  background-color: rgb(255, 104, 255);
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 100px;
+  height: 50px;
+}
+main section .form__comentario .enviar:active {
+  color: yellow;
+  background-color: rgb(151, 41, 255);
 }
 
 footer {

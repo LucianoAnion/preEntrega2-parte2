@@ -95,7 +95,7 @@ main {
             }
 
             .detalles {
-                @include flex-center($posicion-flex,$centrar);
+                @include flex-center($posicion-flex, $centrar);
                 margin: 10%;
                 justify-content: space-between;
                 width: 100%;
@@ -152,6 +152,7 @@ main {
             width: 90%;
             margin: 5%;
             margin-bottom: 20%;
+            border-radius: 20px;
         }
     }
 
@@ -167,6 +168,7 @@ main {
             width: 90%;
             margin: 5%;
             margin-bottom: 20%;
+            border-radius: 20px
         }
     }
 
@@ -198,6 +200,23 @@ main {
             .contacto {
                 font-size: 1.6rem;
                 margin-left: 1%;
+            }
+
+            .enviar {
+                color: $color-blanco;
+                background-color: $color-claro;
+                border: none;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                border-radius: 5px;
+                margin-top: 10px;
+                width: 100px;
+                height: 50px;
+
+                &:active {
+                    color: yellow;
+                    background-color: $color-oscuro;
+                }
             }
         }
     }
